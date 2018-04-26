@@ -60,8 +60,8 @@ public class TestClass implements KeyListener {
 	public static void main(String[] args){
 		TestClass t = new TestClass();
 		System.out.println("hi");
-		createFile("Huan");
-		writeToFile("Huan", "Eichel");
+		createFile("Test");
+		writeToFile("Test", "TestText");
 		frame.addMouseListener(new MouseListener() {
 		    public void mouseClicked(MouseEvent e) {
 				JButton butt = new JButton();
